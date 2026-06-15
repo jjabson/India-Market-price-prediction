@@ -172,6 +172,22 @@ The model can be used as a decision-support tool for:
 * Individual buyers and sellers
 
 ---
+## Model Performance
+
+The final regression model was evaluated using standard regression metrics:
+
+| Metric | Value |
+|---|---:|
+| MAE | 1.214 |
+| RMSE | 2.753 |
+| MAPE | ~12% |
+| R² Score | 0.938 |
+
+The model was also evaluated visually using actual vs predicted plots, residual analysis, and prediction error plots.
+
+![Actual vs Predicted](images/actual_vs_predicted.png)
+
+![Residual Plot](images/residual_plot.png)
 
 ## Technologies Used
 
