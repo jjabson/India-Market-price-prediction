@@ -172,6 +172,7 @@ The model can be used as a decision-support tool for:
 * Individual buyers and sellers
 
 ---
+
 ## Model Performance
 
 The final regression model was evaluated using standard regression metrics:
@@ -183,11 +184,15 @@ The final regression model was evaluated using standard regression metrics:
 | MAPE | ~12% |
 | R² Score | 0.938 |
 
-The model was also evaluated visually using actual vs predicted plots, residual analysis, and prediction error plots.
+The model was also evaluated visually using actual vs predicted plots, residual analysis, and error by price band.
 
-![Actual vs Predicted](images/actual_vs_predicted.png)
+![Actual vs Predicted](images/Actual_vs_Predicted%20Price.png)
 
-![Residual Plot](images/residual_plot.png)
+![Residual Plot](images/Residuals_vs_Predicted_Price_(Log-Ridge).png)
+
+![Error Price Band](images/Error_by_price_band.png)
+
+---
 
 ## Technologies Used
 
